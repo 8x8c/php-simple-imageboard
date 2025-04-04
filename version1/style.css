@@ -1,0 +1,47 @@
+body {
+    background-color: #222;
+    color: #ccc;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.new-thread-form, .reply-form, .thread {
+    background-color: #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.threads {
+    margin: 10px;
+}
+.replies {
+    margin-top: 10px;
+}
+.reply {
+    background-color: #444;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+h2, h3, p, a, .timestamp {
+    color: #ccc;
+}
+a {
+    color: #74b9ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+input, textarea, button {
+    background-color: #555;
+    color: #ccc;
+    border: 1px solid #666;
+    margin-bottom: 5px;
+}
+.latest-reply {
+    background-color: #444;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
