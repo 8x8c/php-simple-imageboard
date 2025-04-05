@@ -7,4 +7,4 @@ version 1- Quite remarkable for 187 lines of code in one file. Just run index.ph
 
 version2- Pagination and link back to board from reply mode added. 
 
-version3- Pagination and link back to board from reply mode added. improvments to text display
+version3- Fixes to text display
