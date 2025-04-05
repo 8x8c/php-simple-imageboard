@@ -1,5 +1,4 @@
 # php-simple-imageboard
 
-
-For years, on github, people have been posting horrid php imageboards that were not complete, bloated, and bad looking. Well, now that Ai is here, decent php imageboards can be made in the blink of an eye. 
+In the blink of an eye, Ai made this imageboard. It is less than 1/100th the code base size of vichan yet has the same basic functionality. Want something changed? just feed it to Ai and tell it what to do.
 
