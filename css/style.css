@@ -1,0 +1,103 @@
+body {
+    background-color: #222;
+    color: #ccc;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.toggle-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new-thread-form,
+.reply-form {
+    background-color: #333;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: calc(100% - 40px);
+}
+
+.new-thread-form form > * {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.thread {
+    background-color: #333;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 600px;
+    width: calc(100% - 40px);
+}
+
+.threads {
+    margin: 10px auto;
+    max-width: 800px;
+    width: calc(100% - 20px);
+}
+
+/* Box for replies container */
+.replies {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.reply {
+    background-color: #444;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+h2, h3, p, a {
+    color: #ccc;
+    margin: 0.5em 0;
+}
+
+a {
+    color: #74b9ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input, textarea, button {
+    background-color: #555;
+    color: #ccc;
+    border: 1px solid #666;
+    padding: 5px;
+}
+
+.latest-reply {
+    background-color: #444;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Ensure long text wraps */
+.thread h3,
+.thread p,
+.reply p,
+.latest-reply p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.pagination {
+    text-align: center;
+    margin: 10px 0;
+}
